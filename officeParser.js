@@ -19,7 +19,7 @@ const ERRORMSG = {
     improperBuffers:                    `Error occured while reading the file buffers`
 }
 /** Default sublocation for decompressing files under the current directory. */
-const DEFAULTDECOMPRESSSUBLOCATION = "officeParserTemp";
+const DEFAULTDECOMPRESSSUBLOCATION = "/tmp";
 
 /** Console error if allowed
  * @param {string} errorMessage         Error message to show on the console
